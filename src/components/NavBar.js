@@ -50,11 +50,11 @@ export const NavBar = () => {
               <Nav.Link href="https://github.com/comfort4447" className={activeLink === 'Github' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Github')}>Github</Nav.Link>
             </Nav>
             <span className="navbar-text">
-              <div className="social-icon">
+              {/* <div className="social-icon">
                 <a href="https://www.linkedin.com/in/tayo-comfort-abisola-a34529100/"><img src={navIcon1} alt="" /></a>
                 <a href="https://www.facebook.com/Herbeesawlah?mibextid=LQQJ4d"><img src={navIcon2} alt="" /></a>
                 <a href="https://instagram.com/abisolatayo?igshid=OGQ5ZDc2ODk2ZA=="><img src={navIcon3} alt="" /></a>
-              </div>
+              </div> */}
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>
               </HashLink>
