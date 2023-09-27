@@ -97,7 +97,7 @@ export const Projects = () => {
                 {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                   <h2>Projects</h2>
-                  <p>Skilled at working with wide range of front- end technologies to produce and evaluate code. Prepared to assist senior development staff in new project launches and management of existing software, 2+ years of professional programming experience with Figma, prototyping, user flow, Html, CSS and JavaScript. </p>
+                  <p>Skilled at working with wide range of front- end technologies to produce and evaluate code.  </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                       <Nav.Item>
