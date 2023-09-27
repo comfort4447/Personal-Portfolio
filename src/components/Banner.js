@@ -58,7 +58,7 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Comfort, `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "A" +  "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Talented junior Software Developer that adept at working with customers, team members and project leaders to accomplish software engineering and updating tasks according to timelines. Skilled at working with wide range of front- end technologies to produce and evaluate code. </p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <a href="https://drive.google.com/file/d/1zM9ga14cNlYyhydNvdI9iY55eXfpSWNP/view?usp=sharing"><button>Download Resume <ArrowRightCircle size={25} /></button></a>
               </div>}
             </TrackVisibility>
           </Col>
